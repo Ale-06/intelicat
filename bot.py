@@ -139,10 +139,14 @@ Menu1 = Fore.WHITE + """
 
 
 """
+import threading
+def loopSound():
+    while True:
+        playsound('C:\\Users\\.\\Desktop\\Codigo, paginas y proyectos\\python\\intelicat\\sounds\\sample.mp3', block=True)
 
-#m=0
-#while m <= 10:
-#  playsound('C:\\Users\\.\\Desktop\\Codigo, paginas y proyectos\\python\\intelicat\\sample.mp3')
+loopThread = threading.Thread(target=loopSound, name='backgroundMusicThread')
+loopThread.daemon = True 
+loopThread.start()
 
 print(Menu1)
 print(Fore.YELLOW + Style.BRIGHT + Back.RESET + gato[3])
