@@ -401,6 +401,12 @@ if pregunta2 == "1":
   time.sleep(3)
 #continuar
 if pregunta2 == "2":
+  def loopSound():
+    while True:
+        playsound('C:\\Users\\.\\Desktop\\Codigo, paginas y proyectos\\python\\intelicat\\sounds\\angry.mp3', block=True) # Personalizar la ruta a su conveniencia
+  loopThread = threading.Thread(target=loopSound, name='backgroundMusicThread')
+  loopThread.daemon = True 
+  loopThread.start()
   time.sleep(2)
   print(espacio)
   print(Fore.RED + Style.BRIGHT + f"¡¿¡CÓMO QUE NO!? QUÉ HE HECHO MAL PARA QUE NO QUIERAS ADOPTARME {nombremayus}!")
