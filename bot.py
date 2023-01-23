@@ -142,7 +142,7 @@ Menu1 = Fore.WHITE + """
 import threading
 def loopSound():
     while True:
-        playsound('C:\\Users\\.\\Desktop\\Codigo, paginas y proyectos\\python\\intelicat\\sounds\\sample.mp3', block=True)
+        playsound('C:\\Users\\.\\Desktop\\Codigo, paginas y proyectos\\python\\intelicat\\sounds\\sample.mp3', block=True) # Personalizar la ruta a su conveniencia
 
 loopThread = threading.Thread(target=loopSound, name='backgroundMusicThread')
 loopThread.daemon = True 
