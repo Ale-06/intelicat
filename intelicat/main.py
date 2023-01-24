@@ -8,7 +8,7 @@ from preguntas import question1, question2
 import threading
 def loopSound():
     while True:
-        playsound('C:\\Users\\laboratorio4\\Downloads\\intelicat-main\\intelicat-main\\intelicat\\sounds\\sample.mp3', block=True) # Personalizar la ruta a su conveniencia
+        playsound('\\sounds\\sample.mp3', block=True) # Personalizar la ruta a su conveniencia
 
 loopThread = threading.Thread(target=loopSound, name='backgroundMusicThread')
 loopThread.daemon = True
@@ -290,7 +290,7 @@ if pregunta2 == "1":
 if pregunta2 == "2":
   def loopSound():
     while True:
-        playsound('C:\\Users\\laboratorio4\\Downloads\\intelicat-main\\intelicat-main\\intelicat\\sounds\\angry.mp3', block=True) # Personalizar la ruta a su conveniencia
+        playsound('\\sounds\\angry.mp3', block=True) # Personalizar la ruta a su conveniencia
   loopThread = threading.Thread(target=loopSound, name='backgroundMusicThread')
   loopThread.daemon = True 
   loopThread.start()
