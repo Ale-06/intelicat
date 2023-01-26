@@ -1,5 +1,5 @@
 
-from colorama import Fore, Back, Style
+from colorama import Fore, Style
       # Colores
 amarillo = Fore.YELLOW + Style.BRIGHT
 rojo = Fore.RED + Style.BRIGHT
