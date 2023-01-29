@@ -6,7 +6,8 @@ colorama.init()
 def espacio():
       print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
       # Mensaje para avanzar en el texto
-
+def sleep0():
+      time.sleep(1)
 def sleep():
       input(blanco + "\n¡Presiona " + amarillo + "ENTER" + blanco + " para continuar!\n")
       espacio()
