@@ -15,12 +15,13 @@ def question3():
     print(verde + """
                                                 Responde.
                      [Enséñame lo que puedes hacer]      -      [No quiero...]
-                                   (1)                           (2) \n""")
+                                   (1)                              (2) \n""")
 def question4():
     print(verde + """
                                                        Responde.
                      [Probar la inteligencia del gato]      -      [No probar la inteligencia del gato]
                                    (1)                                           (2) \n""")
 def calculadora():
-    (verde + """¡Bien! ¿Qué deseas hacer?""" + blanco + """Sumar, restar, multiplicar, dividir, hacer una división entera o conseguir un exponente?
-                                                            [1]     [2]    [3]     [4]    [5]              [6]                      [7]""" + gato[6])
+    print(verde + """                                   ¡Bien! ¿Qué deseas hacer?\n """ + blanco + """
+    Sumar, restar, multiplicar, dividir, hacer una división entera o conseguir un exponente?
+     [1]     [2]    [3]     [4]    [5]              [6]                      [7]""" + gato[6])
