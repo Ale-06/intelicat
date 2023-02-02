@@ -39,7 +39,7 @@ mensaje = ["""                               Me gustaría saber más de ti""", #
 # Pregunta de edad 1 
 "¡Pero bueno! Ya sé tu nombre, ehm... ¿Qué edad tienes?\n", #26
 #condicional pregunta2 1 - opción A 
-"Sé que es algo precipitado pero... ¿Te gustaría ser mi dueño?",#27
+"Sé que es algo precipitado pero... ¿Te gustaría ser mi dueño? \n(No creas que es porque el que me diseñó le dió flojera escribir más lineas de diálogo)",#27
 #Respuesta
 "¡¡¿¡EN SERIOOOO?!!? NO SÉ QUE DECIR ESTOY DEMASIADO FELIZ OMG", #28
 "TE", #29
@@ -62,7 +62,10 @@ mensaje = ["""                               Me gustaría saber más de ti""", #
 "¡Y tengo incluso la capacidad de utilizar la calculadora de esta computadora y resolverte cualquier problema matemático!", #42
 #condicional pregunta5 1 - opción A 
 
-"¿Quieres probar mi inteligencia?"#43
+"¿Quieres probar mi inteligencia?",#43
+"¿Pues sabes qué?",#44
+"Sigues siendo igualmente mi dueño, así que harás lo que yo diga. \nPorque soy tu gato y tú me quieres mucho ¿Verdad? Si.",#45
+"¡Espero que sepas que me importa un #?$#%! tu opinión, y tomaré eso como un SI!"#46
 ]
 final = [
 "Bien, entonces ya que has comprobado mi inteligencia, creo que es hora de...",
@@ -73,7 +76,7 @@ final = [
 ]
 creditos = ["Creado por Alejandro Rondón entre diciembre del 2022 y enero del 2023.",
  "Como proyecto para la facultad de ingeniería de sistemas.", "¡Espero que hayas disfrutado a Intelicat!",
-  "¡A él también le gustó mucho tu compañía, estoy seguro que se divirtió muchísimo contigo!",
+  ".",
  "                                                        FIN"]
 def Menu1():
   Menu1 = blanco + """
@@ -90,8 +93,6 @@ def Menu1():
   espacio()
   print(Menu1)
   print(amarillo + gato[3])
-
-
 
 def calculadora2():
     Opcion = input("")

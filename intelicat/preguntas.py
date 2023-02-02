@@ -1,4 +1,4 @@
-from colores import verde, blanco
+from colores import verde, blanco, amarillo
 from gatos import gato
 def question1():
     print(verde + """
@@ -13,7 +13,7 @@ def question2():
                                    (1)                    (2) \n""")
 def question3():
     print(verde + """
-                                                Responde.
+                                                 Responde.
                      [Enséñame lo que puedes hacer]      -      [No quiero...]
                                    (1)                              (2) \n""")
 def question4():
@@ -23,5 +23,5 @@ def question4():
                                    (1)                                           (2) \n""")
 def calculadora():
     print(verde + """                                   ¡Bien! ¿Qué deseas hacer?\n """ + blanco + """
-    Sumar, restar, multiplicar, dividir, hacer una división entera o conseguir un exponente?
-     [1]     [2]    [3]     [4]    [5]              [6]                      [7]""" + gato[6])
+    Sumar, restar, multiplicar, dividir, hacer una división entera o conseguir un exponente?""" + amarillo + """
+     [1]     [2]      [3]         [4]                [5]                      [6]                   """ + verde + gato[6])

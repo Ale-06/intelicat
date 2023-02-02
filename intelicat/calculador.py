@@ -62,10 +62,10 @@ def dividir_entero():
               print(verde + "¡", Valor1 // Valor2, "!" + gato[8])
 def exponente():
               espacio()
-              print(amarillo + "¡Muy bien! Entonces vas a  Exponente." + blanco + " ¿Qué número deseas elevar?" + amarillo + gato[5])
+              print(amarillo + "¡Muy bien! Entonces vas a exponer." + blanco + " ¿Qué número deseas elevar?" + amarillo + gato[5])
               Valor1 = int(input(""))
               espacio()
-              Valor2 = int(input("¡Perfecto! Entonces será"  + blanco + f"{Valor1}" + amarillo +  "¿Por cuál número deseas elevarlo?" + gato[6]))
+              Valor2 = int(input("¡Perfecto! Entonces será "  + blanco + f"{Valor1}" + amarillo +  " ¿Por cuál número deseas elevarlo?" + gato[6]))
               espacio()
               resultado()
               print(verde + "¡", Valor1 ** Valor2, "!" + gato[8])
