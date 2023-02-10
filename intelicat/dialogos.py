@@ -74,10 +74,10 @@ final = [
 "No sé, busca un libro de matemáticas, busca tu cuaderno, haz algo...",
 "¿Sabes qué? Mejor me voy a dormir ¡Ya he hablado demasiado por hoy!"
 ]
-creditos = ["Creado por Alejandro Rondón entre diciembre del 2022 y enero del 2023.",
+creditos = ["Creado por Ale entre diciembre del 2022 y enero del 2023.",
  "Como proyecto para la facultad de ingeniería de sistemas.", "¡Espero que hayas disfrutado a Intelicat!",
   ".",
- "                                                        FIN"]
+ "                                                    FIN"]
 def Menu1():
   Menu1 = blanco + """
 
